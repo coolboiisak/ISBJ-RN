@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isbjörnar - Kungar av Arktis</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Hem</a></li>
+                <li><a href="#facts">Fakta</a></li>
+                <li><a href="#info">Livsstil</a></li>
+                <li><a href="#timeline">Tidslinje</a></li>
+                <li><a href="#quiz">Quiz</a></li>
+                <li><a href="#gallery">Galleri</a></li>
+            </ul>
+        </nav>
+        <h1>Isbjörnar 🐻‍❄️</h1>
+        <p>Upptäck fascinerande fakta om Arktis mäktigaste rovdjur!</p>
+    </header>
+
+    <section id="home" class="hero">
+        <img src="image.png" alt="Isbjörn på is">
+        <h2>Kungen av Arktis</h2>
+        <p>Isbjörnar är de största rovdjuren på land och en ikon för den arktiska vildmarken.</p>
+    </section>
+
+    <main>
+        <section id="facts" class="fact-section">
+            <h2>🎯 Visste du att...</h2>
+            <img src="tre isbjörnar.jpg" alt="Isbjörn">
+            <div class="fact-box">
+                <p id="fact">Klicka på knappen för att lära dig något nytt om isbjörnar!</p>
+                <button id="factButton">Visa fakta</button>
+            </div>
+        </section>
+
+        <section id="info" class="info-section">
+            <h2>📖 Isbjörnens Livsstil</h2>
+            <div class="info-grid">
+                <div class="info-card">
+                    <h3>🌍 Livsmiljö</h3>
+                    <p>Isbjörnar lever i Arktis och trivs på havsisen där de jagar sälar.</p>
+                </div>
+                <div class="info-card">
+                    <h3>🍽️ Diet</h3>
+                    <p>De äter främst sälar men kan även konsumera valkadaver, fisk och fågelägg.</p>
+                </div>
+                <div class="info-card">
+                    <h3>🚨 Hot</h3>
+                    <p>Global uppvärmning, föroreningar och jakt hotar isbjörnarnas framtid.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="timeline" class="timeline-section">
+            <h2>🕰️ Isbjörnens Livscykel</h2>
+            <ul>
+                <li><strong>0-3 månader:</strong> Föds i en snögrotta och dricker mammans mjölk.</li>
+                <li><strong>1 år:</strong> Lär sig jaga under mammans uppsikt.</li>
+                <li><strong>2-3 år:</strong> Blir självständig och börjar jaga ensam.</li>
+                <li><strong>5 år:</strong> Blir könsmogen och söker en partner.</li>
+                <li><strong>15-20 år:</strong> Lever som en skicklig jägare.</li>
+            </ul>
+        </section>
+
+        <section id="quiz" class="quiz-section">
+            <h2>🧠 Testa din kunskap!</h2>
+            <p>Hur mycket vet du om isbjörnar? Klicka på svaret!</p>
+            <div class="quiz-question">
+                <p>Hur tung kan en fullvuxen han-isbjörn bli?</p>
+                <button onclick="checkAnswer(this, 'fel')">300 kg</button>
+                <button onclick="checkAnswer(this, 'ratt')">700 kg</button>
+                <button onclick="checkAnswer(this, 'fel')">1000 kg</button>
+            </div>
+            <p id="quiz-result"></p>
+        </section>
+
+        <section id="gallery" class="gallery-section">
+            <h2>📸 Isbjörnsbilder</h2>
+            <div class="gallery">
+                <img src="isbjörn i vatten.jpg" alt="Isbjörn som simmar">
+                <img src="isbjörn med unge.jpg" alt="Isbjörn med unge">
+                <img src="död isbjörn.jpg" alt="Isbjörn på jakt">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Isbjörnsfakta | Skapad av Naturälskare</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

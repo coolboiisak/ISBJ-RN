@@ -1,0 +1,165 @@
+/* ======== Grundläggande styling ======== */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #e0f7fa;
+    transition: background-color 0.5s ease;
+}
+
+/* ======== Navbar ======== */
+nav {
+    background-color: #0077b6;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #90e0ef;
+}
+
+/* ======== Hero sektion ======== */
+.hero {
+    background: url('arktis\ landskap2.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin: 20px 0;
+}
+
+/* ======== Fakta-sektionen ======== */
+.fact-section {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+.fact-box {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ======== Informations-sektion ======== */
+.info-section {
+    padding: 40px 20px;
+    background: #f0f0f0;
+}
+
+.info-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.info-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 200px;
+}
+
+/* ======== Tidslinje-sektion ======== */
+.timeline-section {
+    padding: 40px 20px;
+    background: #ffebee;
+}
+
+.timeline-section ul {
+    text-align: left;
+    display: inline-block;
+}
+
+/* ======== Quiz-sektion ======== */
+.quiz-section {
+    background: #fff;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.quiz-question {
+    margin: 15px 0;
+}
+
+.quiz-section button {
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.quiz-section button:hover {
+    background-color: #005f87;
+}
+
+/* ======== Bildgalleri ======== */
+.gallery-section {
+    padding: 40px 20px;
+    background: #f0f0f0;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.gallery img {
+    width: 200px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+/* ======== Footer ======== */
+footer {
+    background-color: #0077b6;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
